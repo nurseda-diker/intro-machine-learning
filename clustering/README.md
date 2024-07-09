@@ -5,7 +5,7 @@ K-Means, veri noktalarını k adet kümeye ayıran popüler bir kümeleme algori
 ### Silhouette Skoru
 Silhouette Skoru, K-Means algoritmasının performansını değerlendirmek için kullanılan bir metriktir. Bu skor, her veri noktasının kendi kümesine ne kadar iyi yerleştiğini ve diğer kümelerden ne kadar ayrıldığını ölçer. Silhouette skoru -1 ile 1 arasında bir değer alır; 1'e yakın değerler iyi bir kümelenmeyi, 0'a yakın değerler kararsız kümelenmeyi ve negatif değerler ise yanlış kümelenmeyi gösterir. Silhouette skoru, farklı küme sayıları için en uygun küme sayısını belirlemeye yardımcı olur.
 
-## Kullanım Alanları
+## Kümelemenin Kullanım Alanları
 * **Müşteri Segmentasyonu** : Pazarlama ve satış stratejilerini optimize etmek için müşterileri benzer gruplara ayırma.
 * **Belge Kümeleme** : Metin madenciliği ve bilgi geri çekme sistemlerinde benzer belgeleri gruplama.
 * **Biyoinformatik** : Gen ekspresyon verilerini gruplama, protein sekanslarını sınıflandırma.
