@@ -12,6 +12,12 @@ Naive Bayes, olasılıksal makine öğrenimi modelleri ailesine ait bir sınıfl
 * **P(B)** : B olayının gerçekleşme olasılığı (marginal olasılık).
 
 ## ​Naive Bayes Türleri
-**1. Gaussian Naive Bayes** : Özelliklerin normal dağıldığını varsayar. Sürekli veri için uygundur. <br>
-**2. Multinomial Naive Bayes** : Kelime sayma (word count) gibi diskret veri için kullanılır. Metin sınıflandırmada yaygındır. <br>
-**3. Bernoulli Naive Bayes**: İkili (binary) özelliklere sahip veriler için uygundur. Belirli bir kelimenin bulunup bulunmadığını kontrol eden metin sınıflandırmalarında kullanılır.
+**1. Gaussian Naive Bayes** : Sıcaklık veya boy gibi tüm özelliklerimiz sürekli değişkenler olduğunda kullanırız. <br>
+**2. Multinomial Naive Bayes** : Örneğin aile üyelerinin sayısı veya bir kitaptaki sayfa sayısı gibi ayrık değerlere sahip olduğumuzda kullanırız.  <br>
+**3. Bernoulli Naive Bayes**: Doğru veya yanlış, evet veya hayır gibi verilerimiz ikili olduğunda kullanırız.
+
+## Naive Bayes'in Kullanım Alanları
+* **Metin Sınıflandırma** : Spam tespiti, duygu analizi, haber kategorilendirme.
+* **Doküman Filtreleme** : E-postaların spam olup olmadığını belirleme.
+* **Tıbbi Teşhis** : Hastalıkların teşhisinde belirli semptomlara dayanarak olasılık hesaplama.
+* **Öneri Sistemleri** : Kullanıcının geçmiş davranışlarına dayalı öneriler oluşturma.
